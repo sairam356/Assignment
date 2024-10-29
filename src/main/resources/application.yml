@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/primarydb
+      database: primarydb
+      secondary:
+        uri: mongodb://localhost:27018/secondarydb
+        database: secondarydb
+
+
+
+    
+server:
+  port: 9292
+  
